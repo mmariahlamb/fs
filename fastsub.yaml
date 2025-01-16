@@ -1,25 +1,39 @@
 proxy-providers: {}
 proxies:
     - cipher: aes-256-cfb
-      delay: 2858
-      name: 韩国 - Seongnam-si - Korea Telecom - 4
+      country: "\U0001F1F0\U0001F1F7KR"
+      delay: 2144
+      name: 韩国 - Gwanak-gu - SK Broadband Co Ltd - 7
       password: qwerREWQ@@
-      port: 38370
-      server: p236.panda004.net
+      port: 22081
+      server: p110.panda001.net
       type: ss
-    - delay: 1480
-      http-opts:
-        headers:
-            Host:
-                - speedtest.net
-        method: GET
-        path:
-            - /
-      name: 德国 - 莱比锡 - Cloudflare, Inc. - 2
-      network: http
-      port: 80
-      server: 2na9noed62ec.dopraxrocks.com
-      servername: speedtest.net
-      tls: false
-      type: vless
-      uuid: 01b12c3c-4d96-45c3-88ef-f1360804d7b0
+    - cipher: aes-256-cfb
+      country: "\U0001F1F0\U0001F1F7KR"
+      delay: 2121
+      name: 韩国 - Jowon-dong - Korea Telecom - 1
+      password: qwerREWQ@@
+      port: 61238
+      server: p231.panda004.net
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 1426
+      name: 韩国 - Jowon-dong - Korea Telecom - 5
+      password: qwerREWQ@@
+      port: 21238
+      server: p230.panda004.net
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 1037
+      name: 韩国 - Seongnam-si - Korea Telecom - 9
+      password: qwerREWQ@@
+      port: 15041
+      server: p239.panda004.net
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 1677
+      name: 韩国 - Seo-gu - SK Broadband Co Ltd - 10
+      password: qwerREWQ@@
+      port: 2105
+      server: 218.234.149.9
+      type: ss
