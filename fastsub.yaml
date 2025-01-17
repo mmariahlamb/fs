@@ -1,12 +1,29 @@
 proxy-providers: {}
 proxies:
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F3C1ZZ"
+      delay: 1952
+      h2-opts: {}
+      http-opts: {}
+      name: 德国 - 法兰克福 - Akamai Technologies, Inc. - 1
+      network: ws
+      port: 80
+      server: zula.ir
+      servername: dry-disk-dfc0.hq0sr5ebxpj60vbz.workers.dev
+      skip-cert-verify: true
+      type: vmess
+      uuid: c1fd780a-3408-4f48-a932-5832a28ce9f6
+      ws-opts:
+        headers:
+            HOST: dry-disk-dfc0.hq0sr5ebxpj60vbz.workers.dev
+        path: /ausgt02.bestforxray.buzz/linkws
     - cipher: aes-256-cfb
-      country: "\U0001F1F0\U0001F1F7KR"
-      delay: 2121
-      name: 韩国 - Jowon-dong - Korea Telecom - 1
+      delay: 2858
+      name: 韩国 - Seongnam-si - Korea Telecom - 4
       password: qwerREWQ@@
-      port: 61238
-      server: p231.panda004.net
+      port: 38370
+      server: p236.panda004.net
       type: ss
     - cipher: aes-256-cfb
       delay: 1753
@@ -14,14 +31,6 @@ proxies:
       password: qwerREWQ@@
       port: 8704
       server: p229.panda004.net
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1F0\U0001F1F7KR"
-      delay: 2144
-      name: 韩国 - Gwanak-gu - SK Broadband Co Ltd - 7
-      password: qwerREWQ@@
-      port: 22081
-      server: p110.panda001.net
       type: ss
     - cipher: aes-256-cfb
       delay: 1037
