@@ -17,11 +17,65 @@ proxies:
             Host: 100-9-89-92.s2.db-link02.top
         path: /dabai.in104.24.114.165
     - cipher: aes-256-cfb
-      delay: 1132
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 7
-      password: amazonskr05
-      port: 443
-      server: 54.214.180.125
+      delay: 816
+      name: 瑞士 - 苏黎世 - DataCamp Limited - 1
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 84.17.53.160
+      type: ss
+    - alpn:
+        - h3
+        - h2
+        - http/1.1
+      client-fingerprint: chrome
+      delay: 1793
+      http-opts:
+        headers:
+            Host:
+                - m-net.speedtestcustom.com
+        method: GET
+        path:
+            - /
+      name: 德国 - 法兰克福 - DigitalOcean, LLC - 4
+      network: http
+      port: 45908
+      server: tunnel-pro.yoooka.lol
+      servername: tunnel-pro.yoooka.lol
+      tls: true
+      type: vless
+      uuid: b2705a86-7b78-4f59-9205-3a16062b8018
+    - alterId: 64
+      cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 2639
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 聖荷西 - PEG TECH INC - 3
+      network: ws
+      port: 38003
+      server: 192.74.242.243
+      servername: www.62813234.xyz
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+      ws-opts:
+        headers:
+            HOST: www.62813234.xyz
+        path: /path/1737106641750
+    - cipher: aes-256-cfb
+      delay: 1645
+      name: 斯洛伐克 - 布拉迪斯拉发 - DataCamp Limited - 1
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 156.146.40.194
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 867
+      name: 葡萄牙 - 里斯本 - BrainStorm Network, Inc - 1
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 185.231.233.173
       type: ss
     - alterId: 64
       cipher: auto
@@ -45,51 +99,6 @@ proxies:
     - alterId: 64
       cipher: auto
       country: "\U0001F1FA\U0001F1F8US"
-      delay: 1497
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - 聖荷西 - PEG TECH INC - 2
-      network: ws
-      port: 31005
-      server: 38.11.50.70
-      servername: www.65420682.xyz
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-      ws-opts:
-        headers:
-            HOST: www.65420682.xyz
-        path: /path/1737106641750
-    - cipher: aes-256-cfb
-      delay: 1554
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 6
-      password: amazonskr05
-      port: 443
-      server: 54.212.56.181
-      type: ss
-    - alterId: 64
-      cipher: auto
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 2639
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - 聖荷西 - PEG TECH INC - 3
-      network: ws
-      port: 38003
-      server: 192.74.242.243
-      servername: www.62813234.xyz
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-      ws-opts:
-        headers:
-            HOST: www.62813234.xyz
-        path: /path/1737106641750
-    - alterId: 64
-      cipher: auto
-      country: "\U0001F1FA\U0001F1F8US"
       delay: 2199
       h2-opts: {}
       http-opts: {}
@@ -109,6 +118,33 @@ proxies:
     - alterId: 64
       cipher: auto
       country: "\U0001F1FA\U0001F1F8US"
+      delay: 1497
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 聖荷西 - PEG TECH INC - 2
+      network: ws
+      port: 31005
+      server: 38.11.50.70
+      servername: www.65420682.xyz
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+      ws-opts:
+        headers:
+            HOST: www.65420682.xyz
+        path: /path/1737106641750
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1EC\U0001F1E7GB"
+      delay: 848
+      name: 英国 - 梅登黑德 - Iomart Hosting Ltd - 2
+      password: 9VToB0AWmiQD10bUER9ShQ
+      port: 443
+      server: 78.129.140.11
+      type: ss
+    - alterId: 64
+      cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
       delay: 2894
       h2-opts: {}
       http-opts: {}
@@ -125,77 +161,33 @@ proxies:
         headers:
             HOST: www.65420682.xyz
         path: /path/1736415675034
-    - cipher: aes-256-cfb
-      country: "\U0001F1EF\U0001F1F5JP"
-      delay: 1527
-      name: 日本 - 东京 - Amazon Technologies Inc. - 4
-      password: amazonskr05
-      port: 443
-      server: 54.95.11.184
-      type: ss
     - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1EC\U0001F1E7GB"
-      delay: 848
-      name: 英国 - 梅登黑德 - Iomart Hosting Ltd - 2
-      password: 9VToB0AWmiQD10bUER9ShQ
+      country: "\U0001F1EB\U0001F1F7FR"
+      delay: 1115
+      name: 法国 - 维莱克雷纳 - Online S.A.S. - 2
+      password: 9eaad9FYyyaQzthwlUrPyL
       port: 443
-      server: 78.129.140.11
+      server: 62.210.88.22
       type: ss
-    - alpn:
-        - h3
-        - h2
-        - http/1.1
-      client-fingerprint: chrome
-      delay: 1793
-      http-opts:
-        headers:
-            Host:
-                - m-net.speedtestcustom.com
-        method: GET
-        path:
-            - /
-      name: 德国 - 法兰克福 - DigitalOcean, LLC - 4
-      network: http
-      port: 45908
-      server: tunnel-pro.yoooka.lol
-      servername: tunnel-pro.yoooka.lol
-      tls: true
-      type: vless
-      uuid: b2705a86-7b78-4f59-9205-3a16062b8018
-    - cipher: aes-256-cfb
-      delay: 816
-      name: 瑞士 - 苏黎世 - DataCamp Limited - 1
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 84.17.53.160
-      type: ss
-    - alpn:
-        - h3
-        - h2
-        - http/1.1
-      client-fingerprint: chrome
-      delay: 2275
-      http-opts:
-        headers:
-            Host:
-                - tunnel-pro.yoooka.lol
-        method: GET
-        path:
-            - /
-      name: 德国 - 法兰克福 - DigitalOcean, LLC - 3
-      network: http
-      port: 45908
-      server: 46.101.71.41
-      servername: tunnel-pro.yoooka.lol
-      tls: true
-      type: vless
-      uuid: b2705a86-7b78-4f59-9205-3a16062b8018
+    - alterId: 64
+      cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 2628
+      h2-opts: {}
+      http-opts: {}
+      name: 中国 - 东营市 - PEG TECH INC - 3
+      network: tcp
+      port: 45017
+      server: 137.175.20.84
+      skip-cert-verify: true
+      type: vmess
+      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     - cipher: rc4-md5
-      delay: 2432
-      name: 新加坡 - 新加坡 - DigitalOcean, LLC - 2
+      delay: 1011
+      name: 印度 - 班加羅爾 - DigitalOcean, LLC - 2
       password: 14fFPrbezE3HDZzsMOr6
       port: 8080
-      server: 68.183.227.236
+      server: 159.65.149.67
       type: ss
     - cipher: rc4-md5
       delay: 2797
@@ -205,53 +197,20 @@ proxies:
       server: 68.183.227.45
       type: ss
     - cipher: aes-256-cfb
-      delay: 1645
-      name: 斯洛伐克 - 布拉迪斯拉发 - DataCamp Limited - 1
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 156.146.40.194
+      delay: 1580
+      name: 韩国 - Gwanak-gu - Korea Telecom - 15
+      password: qwerREWQ@@
+      port: 30778
+      server: 125.141.26.12
       type: ss
     - cipher: aes-256-cfb
-      delay: 941
-      name: 韩国 - Gwanak-gu - Korea Telecom - 1
+      country: "\U0001F1F0\U0001F1F7KR"
+      delay: 1004
+      name: 韩国 - Jowon-dong - Korea Telecom - 9
       password: qwerREWQ@@
-      port: 28290
-      server: 125.141.31.74
+      port: 59686
+      server: p232.panda004.net
       type: ss
-    - delay: 1542
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 35
-      network: ws
-      port: 80
-      server: 141.101.121.87
-      servername: a.mifeng.us.kg
-      tls: false
-      type: vless
-      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-      ws-opts:
-        headers:
-            Host: a.mifeng.us.kg
-        path: /telegram-_-_-_-_-__-free_shekan-_-_-_-/?ed=2048
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1EB\U0001F1F7FR"
-      delay: 1115
-      name: 法国 - 维莱克雷纳 - Online S.A.S. - 2
-      password: 9eaad9FYyyaQzthwlUrPyL
-      port: 443
-      server: 62.210.88.22
-      type: ss
-    - delay: 1987
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 41
-      network: ws
-      port: 80
-      server: 141.101.122.107
-      servername: a.mifeng.us.kg
-      tls: false
-      type: vless
-      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-      ws-opts:
-        headers:
-            Host: a.mifeng.us.kg
-        path: /telegram-_-_-_-_-__-free_shekan-_-_-_-/?ed=2048
     - cipher: aes-256-cfb
       country: "\U0001F1F0\U0001F1F7KR"
       delay: 1140
@@ -260,18 +219,15 @@ proxies:
       port: 43104
       server: 125.141.31.103
       type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1F0\U0001F1F7KR"
-      delay: 829
-      name: 韩国 - Jowon-dong - Korea Telecom - 2
-      password: qwerREWQ@@
-      port: 61238
-      server: 221.150.109.89
-      type: ss
-    - cipher: aes-256-cfb
-      delay: 921
-      name: 韩国 - Gwanak-gu - Korea Telecom - 6
-      password: qwerREWQ@@
-      port: 43104
-      server: p221.panda001.net
-      type: ss
+    - alterId: 0
+      cipher: auto
+      delay: 1179
+      name: 英国 - 伦敦 - Baxet Group Inc. - 1
+      network: ws
+      port: 23985
+      server: 5.39.254.196
+      tls: false
+      type: vmess
+      uuid: 398ce84e-4849-4e5f-9b1a-a56fbe233b81
+      ws-opts:
+        path: /
