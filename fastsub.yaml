@@ -1,73 +1,5 @@
 proxy-providers: {}
 proxies:
-    - cipher: aes-256-cfb
-      delay: 685
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 5
-      password: amazonskr05
-      port: 443
-      server: 34.211.250.149
-      type: ss
-    - alterId: 0
-      cipher: auto
-      delay: 925
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - 洛杉矶 - HostPapa - 10
-      network: ws
-      port: 8880
-      server: s2.db-link02.top
-      skip-cert-verify: true
-      type: vmess
-      uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-      ws-opts:
-        headers:
-            Host: 100-9-89-92.s2.db-link02.top
-        path: /dabai.in104.24.114.165
-    - cipher: aes-256-cfb
-      delay: 1132
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 7
-      password: amazonskr05
-      port: 443
-      server: 54.214.180.125
-      type: ss
-    - alterId: 64
-      cipher: auto
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 2199
-      h2-opts: {}
-      http-opts: {}
-      name: 中国 - 成都 - PEG TECH INC - 1
-      network: ws
-      port: 37004
-      server: 108.186.26.168
-      servername: www.93976091.xyz
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-      ws-opts:
-        headers:
-            HOST: www.93976091.xyz
-        path: /path/1737106641750
-    - alterId: 64
-      cipher: auto
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 1138
-      h2-opts: {}
-      http-opts: {}
-      name: 中国 - 成都 - PEG TECH INC - 2
-      network: ws
-      port: 31004
-      server: 199.188.105.58
-      servername: www.46554484.xyz
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-      ws-opts:
-        headers:
-            HOST: www.46554484.xyz
-        path: /path/1737106641750
     - alterId: 64
       cipher: auto
       country: "\U0001F1FA\U0001F1F8US"
@@ -86,6 +18,25 @@ proxies:
       ws-opts:
         headers:
             HOST: www.62813234.xyz
+        path: /path/1737106641750
+    - alterId: 64
+      cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 2199
+      h2-opts: {}
+      http-opts: {}
+      name: 中国 - 成都 - PEG TECH INC - 1
+      network: ws
+      port: 37004
+      server: 108.186.26.168
+      servername: www.93976091.xyz
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+      ws-opts:
+        headers:
+            HOST: www.93976091.xyz
         path: /path/1737106641750
     - alterId: 64
       cipher: auto
@@ -125,13 +76,19 @@ proxies:
         headers:
             HOST: www.65420682.xyz
         path: /path/1736415675034
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1EC\U0001F1E7GB"
-      delay: 848
-      name: 英国 - 梅登黑德 - Iomart Hosting Ltd - 2
-      password: 9VToB0AWmiQD10bUER9ShQ
-      port: 443
-      server: 78.129.140.11
+    - cipher: aes-256-cfb
+      delay: 1645
+      name: 斯洛伐克 - 布拉迪斯拉发 - DataCamp Limited - 1
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 156.146.40.194
+      type: ss
+    - cipher: rc4-md5
+      delay: 2797
+      name: 新加坡 - 新加坡 - DigitalOcean, LLC - 1
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 68.183.227.45
       type: ss
     - cipher: aes-256-cfb
       country: "\U0001F1F0\U0001F1F7KR"
@@ -141,13 +98,55 @@ proxies:
       port: 59686
       server: p232.panda004.net
       type: ss
-    - cipher: aes-256-cfb
-      delay: 816
-      name: 瑞士 - 苏黎世 - DataCamp Limited - 1
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 84.17.53.160
+    - alterId: 64
+      cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1138
+      h2-opts: {}
+      http-opts: {}
+      name: 中国 - 成都 - PEG TECH INC - 2
+      network: ws
+      port: 31004
+      server: 199.188.105.58
+      servername: www.46554484.xyz
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+      ws-opts:
+        headers:
+            HOST: www.46554484.xyz
+        path: /path/1737106641750
+    - cipher: rc4-md5
+      delay: 2432
+      name: 新加坡 - 新加坡 - DigitalOcean, LLC - 2
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 68.183.227.236
       type: ss
+    - cipher: aes-256-cfb
+      delay: 1183
+      name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 4
+      password: amazonskr05
+      port: 443
+      server: 3.36.116.141
+      type: ss
+    - alterId: 0
+      cipher: auto
+      delay: 925
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 洛杉矶 - HostPapa - 10
+      network: ws
+      port: 8880
+      server: s2.db-link02.top
+      skip-cert-verify: true
+      type: vmess
+      uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+      ws-opts:
+        headers:
+            Host: 100-9-89-92.s2.db-link02.top
+        path: /dabai.in104.24.114.165
     - alterId: 64
       cipher: auto
       country: "\U0001F1FA\U0001F1F8US"
@@ -161,37 +160,16 @@ proxies:
       skip-cert-verify: true
       type: vmess
       uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    - cipher: rc4-md5
-      delay: 2432
-      name: 新加坡 - 新加坡 - DigitalOcean, LLC - 2
-      password: 14fFPrbezE3HDZzsMOr6
-      port: 8080
-      server: 68.183.227.236
-      type: ss
-    - cipher: rc4-md5
-      delay: 2797
-      name: 新加坡 - 新加坡 - DigitalOcean, LLC - 1
-      password: 14fFPrbezE3HDZzsMOr6
-      port: 8080
-      server: 68.183.227.45
-      type: ss
-    - cipher: aes-256-cfb
-      delay: 1645
-      name: 斯洛伐克 - 布拉迪斯拉发 - DataCamp Limited - 1
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 156.146.40.194
-      type: ss
     - alpn:
         - h3
         - h2
         - http/1.1
       client-fingerprint: ios
-      delay: 1154
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 43
+      delay: 846
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 45
       network: ws
       port: 443
-      server: 46.254.92.33
+      server: 92.60.74.100
       servername: mmdserver.us.kg
       tls: true
       type: vless
@@ -200,51 +178,3 @@ proxies:
         headers:
             Host: mmdserver.us.kg
         path: /?ed=2048
-    - alpn:
-        - h3,h2,http/1.1
-      client-fingerprint: chrome
-      delay: 2530
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 44
-      network: ws
-      port: 443
-      server: 192.0.54.235
-      servername: mmdserver.us.kg
-      tls: true
-      type: vless
-      uuid: 41abecd9-8096-4142-a75c-4e1d36d990bd
-      ws-opts:
-        headers:
-            Host: mmdserver.us.kg
-        path: /?ed=2048fp=ios
-    - delay: 1121
-      name: 英国 - 豪恩斯洛 - Cloudflare, Inc. - 3
-      network: ws
-      port: 80
-      server: 104.21.57.76
-      servername: SHriLL-tErM-639B.TAGeLIt414.wOrkers.Dev
-      type: vless
-      uuid: 19b3cbba-e6ac-485a-9481-926a0415eab2
-      ws-opts:
-        headers:
-            Host: SHriLL-tErM-639B.TAGeLIt414.wOrkers.Dev
-        path: /Nc0OWXRRyHScAFoY
-    - delay: 1538
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 40
-      network: ws
-      port: 80
-      server: 198.41.205.44
-      servername: a.mifeng.us.kg
-      tls: false
-      type: vless
-      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-      ws-opts:
-        headers:
-            Host: a.mifeng.us.kg
-        path: /telegram-_-_-_-_-__-free_shekan-_-_-_-/?ed=2048
-    - cipher: chacha20-ietf-poly1305
-      delay: 1296
-      name: 摩尔多瓦 - 基希讷乌 - Stark Industries Solutions LTD - 1
-      password: YjJiYzBj
-      port: 8388
-      server: 45.140.146.223
-      type: ss
