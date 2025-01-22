@@ -21,6 +21,51 @@ proxies:
         path: /linkvws
     - alterId: 0
       cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 994
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 洛杉矶 - HostPapa - 19
+      network: ws
+      port: 443
+      server: 23.94.243.79
+      servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+      ws-opts:
+        headers:
+            HOST: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+        path: /dabai.in104.20.27.115
+    - cipher: chacha20-ietf-poly1305
+      delay: 703
+      name: 荷兰 - 阿姆斯特丹 - Greenhost BV - 2
+      password: oZIoA69Q8yhcQV8ka3Pa3A
+      port: 8080
+      server: 45.158.171.110
+      type: ss
+      udp: true
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F3C1ZZ"
+      delay: 2517
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 洛杉矶 - HostPapa - 17
+      network: ws
+      port: 8880
+      server: s1.db-link01.top
+      servername: 100-250-32-53.s1.db-link01.top
+      skip-cert-verify: true
+      type: vmess
+      uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+      ws-opts:
+        headers:
+            HOST: 100-250-32-53.s1.db-link01.top
+        path: /dabai.in172.67.95.35
+    - alterId: 0
+      cipher: auto
       country: "\U0001F1E9\U0001F1EADE"
       delay: 1626
       h2-opts: {}
@@ -35,14 +80,32 @@ proxies:
       skip-cert-verify: true
       type: vmess
       uuid: 48264b45-64b8-4e9f-8a88-cef41f20c736
-    - cipher: chacha20-ietf-poly1305
-      delay: 703
-      name: 荷兰 - 阿姆斯特丹 - Greenhost BV - 2
-      password: oZIoA69Q8yhcQV8ka3Pa3A
-      port: 8080
-      server: 45.158.171.110
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F3C1ZZ"
+      delay: 1798
+      h2-opts: {}
+      http-opts: {}
+      name: 德国 - Frankfurt - GTHost - 5
+      network: ws
+      port: 443
+      server: 23.158.56.241
+      servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+      ws-opts:
+        headers:
+            HOST: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+        path: /linkvws
+    - cipher: aes-256-cfb
+      delay: 826
+      name: 瑞士 - 苏黎世 - DataCamp Limited - 1
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 84.17.53.160
       type: ss
-      udp: true
     - alterId: 64
       cipher: auto
       country: "\U0001F1FA\U0001F1F8US"
@@ -59,6 +122,25 @@ proxies:
       uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
       ws-opts:
         path: /path/1731490899984
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 2970
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 費利蒙 - Akamai Technologies, Inc. - 1
+      network: ws
+      port: 443
+      server: 96.126.102.150
+      servername: s1.datasheetserver.com
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 051e3f0c-c139-4c7c-9559-41222b72ca20
+      ws-opts:
+        headers:
+            HOST: s1.datasheetserver.com
+        path: /datasheet
     - alterId: 0
       cipher: auto
       country: "\U0001F3C1ZZ"
@@ -80,25 +162,6 @@ proxies:
         path: /vmess
     - alterId: 0
       cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 1798
-      h2-opts: {}
-      http-opts: {}
-      name: 德国 - Frankfurt - GTHost - 5
-      network: ws
-      port: 443
-      server: 23.158.56.241
-      servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-      ws-opts:
-        headers:
-            HOST: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-        path: /linkvws
-    - alterId: 0
-      cipher: auto
       country: "\U0001F1FA\U0001F1F8US"
       delay: 1555
       h2-opts: {}
@@ -113,18 +176,18 @@ proxies:
       uuid: 2ca8b9c3-a2c7-4f3e-b3f4-acd85525ace1
       ws-opts:
         path: /L0229-16
-    - cipher: aes-256-cfb
-      delay: 2100
-      name: 韩国 - Seongnam-si - Korea Telecom - 1
-      password: qwerREWQ@@
-      port: 37041
-      server: 121.170.203.147
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      delay: 1156
-      name: 韩国 - Seongnam-si - Korea Telecom - 3
-      password: qwerREWQ@@
-      port: 27973
-      server: 221.168.44.72
-      type: ss
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1635
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 水牛城 - HostPapa - 4
+      network: ws
+      port: 80
+      server: 107.174.34.6
+      skip-cert-verify: true
+      type: vmess
+      uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+      ws-opts:
+        path: /dabai.in172.64.19.172
