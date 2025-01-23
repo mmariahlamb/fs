@@ -17,12 +17,13 @@ proxies:
             Host: 100-114-107-221.s4.db-link01.top
         path: /dabai.in104.17.28.240
     - cipher: aes-256-cfb
-      delay: 1850
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 2
+      delay: 1361
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 9
       password: amazonskr05
       port: 443
-      server: 54.190.19.18
+      server: 35.164.209.221
       type: ss
+      udp: true
     - cipher: aes-256-cfb
       country: "\U0001F1FA\U0001F1F8US"
       delay: 820
@@ -32,13 +33,48 @@ proxies:
       server: 34.220.172.195
       type: ss
     - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 1111
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 15
+      delay: 2772
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 3
+      obfs: plain
+      obfs-param: ""
       password: amazonskr05
       port: 443
-      server: 34.217.62.14
+      protocol: origin
+      protocol-param: ""
+      server: 54.202.6.21
+      type: ssr
+    - cipher: aes-256-cfb
+      delay: 691
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 10
+      password: amazonskr05
+      port: 443
+      server: 34.217.130.149
       type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 674
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 21
+      password: amazonskr05
+      port: 443
+      server: 54.185.31.212
+      type: ss
+    - alterId: 0
+      cipher: auto
+      delay: 1624
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 洛杉矶 - HostPapa - 6
+      network: ws
+      port: 2082
+      server: s1.db-link02.top
+      skip-cert-verify: true
+      type: vmess
+      uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+      ws-opts:
+        headers:
+            Host: 100-113-212-3.s1.db-link02.top
+        path: /dabai.in172.67.79.231
     - alterId: 0
       cipher: auto
       country: "\U0001F1E9\U0001F1EADE"
@@ -51,20 +87,20 @@ proxies:
       skip-cert-verify: true
       type: vmess
       uuid: 2b7ce1d2-0372-4104-aa06-f7d999f26e1d
-    - cipher: aes-256-cfb
-      delay: 1361
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 9
-      password: amazonskr05
-      port: 443
-      server: 35.164.209.221
-      type: ss
-      udp: true
     - cipher: rc4-md5
       delay: 1023
       name: 英国 - 倫敦金融城 - M247 Europe SRL - 2
       password: 14fFPrbezE3HDZzsMOr6
       port: 8080
       server: 146.70.61.18
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1111
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 15
+      password: amazonskr05
+      port: 443
+      server: 34.217.62.14
       type: ss
     - delay: 1334
       name: 荷兰 - 哈勒姆 - LeaseWeb Netherlands B.V. - 1
@@ -81,13 +117,20 @@ proxies:
             Host: 49.org
         path: /telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee?ed=2095
     - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 674
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 21
+      delay: 1850
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 2
       password: amazonskr05
       port: 443
-      server: 54.185.31.212
+      server: 54.190.19.18
       type: ss
+    - cipher: aes-256-cfb
+      delay: 2972
+      name: 日本 - 东京 - Amazon Technologies Inc. - 2
+      password: amazonskr05
+      port: 443
+      server: 52.199.214.12
+      type: ss
+      udp: true
     - cipher: aes-256-cfb
       delay: 457
       name: 日本 - 东京 - Amazon Technologies Inc. - 1
@@ -96,6 +139,14 @@ proxies:
       server: 13.231.184.191
       type: ss
       udp: true
+    - cipher: aes-256-cfb
+      country: "\U0001F1F0\U0001F1F7KR"
+      delay: 1043
+      name: 韩国 - 首尔特别市 - Amazon Technologies Inc. - 1
+      password: amazonskr05
+      port: 443
+      server: 52.78.205.26
+      type: ss
     - alterId: 1
       cipher: auto
       country: "\U0001F1E7\U0001F1EABE"
@@ -116,13 +167,13 @@ proxies:
             HOST: 57.129.25.20
         path: linkvws
     - cipher: aes-256-cfb
-      delay: 256
-      name: 新加坡 - 新加坡 - Amazon.com, Inc. - 4
+      country: "\U0001F1F8\U0001F1ECSG"
+      delay: 986
+      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 6
       password: amazonskr05
       port: 443
-      server: 13.250.116.128
+      server: 13.212.9.210
       type: ss
-      udp: true
     - delay: 1069
       http-opts:
         headers:
@@ -140,19 +191,11 @@ proxies:
       type: vless
       udp: true
       uuid: a52dd329-acad-413b-aa8f-713686ad690c
-    - alterId: 0
-      cipher: auto
-      delay: 1624
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - 洛杉矶 - HostPapa - 6
-      network: ws
-      port: 2082
-      server: s1.db-link02.top
-      skip-cert-verify: true
-      type: vmess
-      uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-      ws-opts:
-        headers:
-            Host: 100-113-212-3.s1.db-link02.top
-        path: /dabai.in172.67.79.231
+    - cipher: aes-256-cfb
+      country: "\U0001F1F8\U0001F1ECSG"
+      delay: 505
+      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 5
+      password: amazonskr05
+      port: 443
+      server: 54.255.182.6
+      type: ss
