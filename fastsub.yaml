@@ -9,37 +9,6 @@ proxies:
       server: 34.217.62.14
       type: ss
     - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 674
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 21
-      password: amazonskr05
-      port: 443
-      server: 54.185.31.212
-      type: ss
-    - alterId: 0
-      cipher: auto
-      delay: 2831
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - 水牛城 - HostPapa - 19
-      network: ws
-      port: 2095
-      server: s4.db-link01.top
-      skip-cert-verify: true
-      type: vmess
-      uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-      ws-opts:
-        headers:
-            Host: 100-114-107-221.s4.db-link01.top
-        path: /dabai.in104.17.28.240
-    - cipher: rc4-md5
-      delay: 1023
-      name: 英国 - 倫敦金融城 - M247 Europe SRL - 2
-      password: 14fFPrbezE3HDZzsMOr6
-      port: 8080
-      server: 146.70.61.18
-      type: ss
-    - cipher: aes-256-cfb
       country: "\U0001F1F0\U0001F1F7KR"
       delay: 1043
       name: 韩国 - 首尔特别市 - Amazon Technologies Inc. - 1
@@ -47,18 +16,6 @@ proxies:
       port: 443
       server: 52.78.205.26
       type: ss
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F1E9\U0001F1EADE"
-      delay: 920
-      h2-opts: {}
-      http-opts: {}
-      name: 德国 - 纽伦堡 - Hetzner Online GmbH - 4
-      port: 80
-      server: 188.245.217.122
-      skip-cert-verify: true
-      type: vmess
-      uuid: 2b7ce1d2-0372-4104-aa06-f7d999f26e1d
     - delay: 1334
       name: 荷兰 - 哈勒姆 - LeaseWeb Netherlands B.V. - 1
       network: ws
@@ -73,17 +30,25 @@ proxies:
         headers:
             Host: 49.org
         path: /telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee?ed=2095
-    - cipher: aes-256-cfb
-      delay: 1323
-      name: 葡萄牙 - 里斯本 - BrainStorm Network, Inc - 1
-      obfs: plain
-      obfs-param: ""
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      protocol: origin
-      protocol-param: ""
-      server: 185.231.233.173
-      type: ssr
+    - cipher: rc4-md5
+      delay: 1023
+      name: 英国 - 倫敦金融城 - M247 Europe SRL - 2
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 146.70.61.18
+      type: ss
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1E9\U0001F1EADE"
+      delay: 920
+      h2-opts: {}
+      http-opts: {}
+      name: 德国 - 纽伦堡 - Hetzner Online GmbH - 4
+      port: 80
+      server: 188.245.217.122
+      skip-cert-verify: true
+      type: vmess
+      uuid: 2b7ce1d2-0372-4104-aa06-f7d999f26e1d
     - delay: 1069
       http-opts:
         headers:
@@ -101,11 +66,47 @@ proxies:
       type: vless
       udp: true
       uuid: a52dd329-acad-413b-aa8f-713686ad690c
-    - cipher: aes-256-cfb
-      delay: 457
-      name: 日本 - 东京 - Amazon Technologies Inc. - 1
-      password: amazonskr05
-      port: 443
-      server: 13.231.184.191
-      type: ss
-      udp: true
+    - alterId: 0
+      cipher: auto
+      delay: 2543
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 水牛城 - HostPapa - 17
+      network: ws
+      port: 8080
+      server: s5.cn-db.top
+      skip-cert-verify: true
+      type: vmess
+      uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+      ws-opts:
+        headers:
+            Host: 100-166-76-245.s5.cn-db.top
+        path: /dabai.in172.67.26.191
+    - delay: 1089
+      name: 英国 - 豪恩斯洛 - Cloudflare, Inc. - 5
+      network: ws
+      port: 80
+      server: 104.21.30.21
+      tls: false
+      type: vless
+      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+      ws-opts:
+        headers:
+            Host: a.mifeng.us.kg
+        path: /telegram-_-_-_-_-__-free_shekan-_-_-_-/?ed=2048
+    - alterId: 0
+      cipher: auto
+      delay: 1624
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 洛杉矶 - HostPapa - 6
+      network: ws
+      port: 2082
+      server: s1.db-link02.top
+      skip-cert-verify: true
+      type: vmess
+      uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+      ws-opts:
+        headers:
+            Host: 100-113-212-3.s1.db-link02.top
+        path: /dabai.in172.67.79.231
