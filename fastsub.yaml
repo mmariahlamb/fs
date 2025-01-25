@@ -2,18 +2,6 @@ proxy-providers: {}
 proxies:
     - alpn:
         - h2
-      delay: 2033
-      name: 美国 - 洛杉矶 - Datacamp Limited - 22
-      network: tcp
-      port: 8443
-      server: 84.17.45.176
-      servername: us3.fromblancwithlove.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 157448af-8ecf-4075-a9e9-b23a6a94899b
-    - alpn:
-        - h2
       delay: 1888
       name: 美国 - 紐約 - DataCamp Limited - 23
       network: tcp
@@ -35,19 +23,37 @@ proxies:
       type: vless
       udp: true
       uuid: 157448af-8ecf-4075-a9e9-b23a6a94899b
-    - alterId: 64
-      cipher: auto
-      country: "\U0001F1E8\U0001F1F3CN"
-      delay: 2581
-      h2-opts: {}
-      http-opts: {}
-      name: 中国 - 东营市 - PEG TECH INC - 5
+    - alpn:
+        - h2
+      delay: 2033
+      name: 美国 - 洛杉矶 - Datacamp Limited - 22
       network: tcp
-      port: 45017
-      server: 142.0.134.242
-      skip-cert-verify: true
-      type: vmess
-      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+      port: 8443
+      server: 84.17.45.176
+      servername: us3.fromblancwithlove.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 157448af-8ecf-4075-a9e9-b23a6a94899b
+    - cipher: rc4-md5
+      delay: 1447
+      name: 美国 - 海厄利亞 - M247 Europe SRL - 1
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 194.5.215.59
+      type: ss
+    - delay: 613
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 8
+      network: ws
+      port: 2052
+      server: 104.17.147.22
+      servername: freev2rng---freev2rng---freev2rng---freev2rng---freev2rng.s88p4jh.workers.dev
+      type: vless
+      uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+      ws-opts:
+        headers:
+            Host: freev2rng---freev2rng---freev2rng---freev2rng---freev2rng.s88p4jh.workers.dev
+        path: /WG9SqpThFFMyTenz?ed=2560
     - client-fingerprint: chrome
       delay: 1488
       name: 美国 - Ashburn - Amazon.com, Inc. - 24
@@ -60,13 +66,6 @@ proxies:
       uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
       ws-opts:
         path: /telegram-channel-vlessconfig-ws
-    - cipher: rc4-md5
-      delay: 1447
-      name: 美国 - 海厄利亞 - M247 Europe SRL - 1
-      password: 14fFPrbezE3HDZzsMOr6
-      port: 8080
-      server: 194.5.215.59
-      type: ss
     - alpn:
         - h2
       delay: 1471
@@ -78,20 +77,6 @@ proxies:
       type: vless
       udp: true
       uuid: 157448af-8ecf-4075-a9e9-b23a6a94899b
-    - alterId: 0
-      cipher: auto
-      delay: 1474
-      http-opts:
-        method: GET
-        path:
-            - /
-      name: 德国 - 法兰克福 - DigitalOcean, LLC - 2
-      network: http
-      port: 2082
-      server: 64.225.109.206
-      tls: false
-      type: vmess
-      uuid: 48264b45-64b8-4e9f-8a88-cef41f20c736
     - alpn:
         - h2
       delay: 1179
@@ -116,13 +101,6 @@ proxies:
       type: vless
       udp: true
       uuid: 157448af-8ecf-4075-a9e9-b23a6a94899b
-    - cipher: aes-256-cfb
-      delay: 773
-      name: 瑞士 - 苏黎世 - DataCamp Limited - 1
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 84.17.53.160
-      type: ss
     - alpn:
         - h2
       delay: 1000
@@ -135,18 +113,6 @@ proxies:
       type: vless
       udp: true
       uuid: 157448af-8ecf-4075-a9e9-b23a6a94899b
-    - delay: 613
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 8
-      network: ws
-      port: 2052
-      server: 104.17.147.22
-      servername: freev2rng---freev2rng---freev2rng---freev2rng---freev2rng.s88p4jh.workers.dev
-      type: vless
-      uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-      ws-opts:
-        headers:
-            Host: freev2rng---freev2rng---freev2rng---freev2rng---freev2rng.s88p4jh.workers.dev
-        path: /WG9SqpThFFMyTenz?ed=2560
     - alpn:
         - h2
       delay: 1414
@@ -159,20 +125,24 @@ proxies:
       type: vless
       udp: true
       uuid: 157448af-8ecf-4075-a9e9-b23a6a94899b
-    - delay: 1619
-      name: 新加坡 - 新加坡 - DIGITALOCEAN - 5
-      network: ws
-      port: 80
-      server: 103.253.145.213
-      servername: zoom.us
-      tls: false
+    - cipher: aes-256-cfb
+      delay: 856
+      name: 斯洛伐克 - 布拉迪斯拉发 - DataCamp Limited - 1
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 156.146.40.194
+      type: ss
+    - alpn:
+        - h2
+      delay: 1742
+      name: 波兰 - 华沙 - Datacamp Limited - 1
+      network: tcp
+      port: 8443
+      server: pl1.fromblancwithlove.com
+      tls: true
       type: vless
       udp: true
-      uuid: f6880deb-1c08-4dae-9715-0a175a6519ae
-      ws-opts:
-        headers:
-            Host: zoom.us
-        path: /FREE By Tharuwa (0767597317)
+      uuid: 157448af-8ecf-4075-a9e9-b23a6a94899b
     - alpn:
         - h2
       delay: 1399
@@ -187,29 +157,49 @@ proxies:
       uuid: 157448af-8ecf-4075-a9e9-b23a6a94899b
     - alpn:
         - h2
-      delay: 1742
-      name: 波兰 - 华沙 - Datacamp Limited - 1
+      delay: 2127
+      name: 希腊 - 雅典 - Datacamp Limited - 1
       network: tcp
       port: 8443
-      server: pl1.fromblancwithlove.com
+      server: 79.127.218.204
+      servername: ath-gr-01.fromblancwithlove.com
       tls: true
       type: vless
       udp: true
       uuid: 157448af-8ecf-4075-a9e9-b23a6a94899b
-    - cipher: aes-256-cfb
-      delay: 856
-      name: 斯洛伐克 - 布拉迪斯拉发 - DataCamp Limited - 1
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 156.146.40.194
-      type: ss
-    - country: "\U0001F1EC\U0001F1E7GB"
-      delay: 961
-      name: 英国 - 伦敦 - Amazon Technologies Inc. - 2
+    - alterId: 64
+      cipher: auto
+      country: "\U0001F1E8\U0001F1F3CN"
+      delay: 2581
+      h2-opts: {}
+      http-opts: {}
+      name: 中国 - 东营市 - PEG TECH INC - 5
       network: tcp
-      password: telegram-id-privatevpns
-      port: 22222
-      server: 18.134.54.187
-      sni: trojan.burgerip.co.uk
-      type: trojan
+      port: 45017
+      server: 142.0.134.242
+      skip-cert-verify: true
+      type: vmess
+      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    - alpn:
+        - h2
+      delay: 2122
+      name: 阿根廷 - 布宜诺斯艾利斯省 - Latitude.sh - 1
+      network: tcp
+      port: 8443
+      server: eze-1.fromblancwithlove.com
+      tls: true
+      type: vless
       udp: true
+      uuid: 157448af-8ecf-4075-a9e9-b23a6a94899b
+    - client-fingerprint: chrome
+      delay: 1687
+      name: 德国 - Frankfurt am Main - Amazon Technologies Inc. - 13
+      network: ws
+      port: 22222
+      server: 35.157.78.64
+      servername: telegram-channel-vlessconfig.sohala.uk
+      tls: true
+      type: vless
+      uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
+      ws-opts:
+        path: /telegram-channel-vlessconfig-ws
