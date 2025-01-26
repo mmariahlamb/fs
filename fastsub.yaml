@@ -2,23 +2,23 @@ proxy-providers: {}
 proxies:
     - alpn:
         - h2
-      delay: 1306
-      name: 美国 - 紐約 - DataCamp Limited - 21
+      delay: 1888
+      name: 美国 - 紐約 - DataCamp Limited - 23
       network: tcp
       port: 8443
-      server: 89.187.179.6
-      servername: ny1.fromblancwithlove.com
+      server: ny1.fromblancwithlove.com
       tls: true
       type: vless
       udp: true
       uuid: 157448af-8ecf-4075-a9e9-b23a6a94899b
     - alpn:
         - h2
-      delay: 1888
-      name: 美国 - 紐約 - DataCamp Limited - 23
+      delay: 1306
+      name: 美国 - 紐約 - DataCamp Limited - 21
       network: tcp
       port: 8443
-      server: ny1.fromblancwithlove.com
+      server: 89.187.179.6
+      servername: ny1.fromblancwithlove.com
       tls: true
       type: vless
       udp: true
@@ -64,23 +64,23 @@ proxies:
       uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     - alpn:
         - h2
-      delay: 1471
-      name: 法国 - Pars-lès-Romilly - DataCamp Limited - 3
+      delay: 1179
+      name: 法国 - Pars-lès-Romilly - DataCamp Limited - 2
       network: tcp
       port: 8443
-      server: cdg-1.fromblancwithlove.com
+      server: 138.199.27.206
+      servername: cdg-1.fromblancwithlove.com
       tls: true
       type: vless
       udp: true
       uuid: 157448af-8ecf-4075-a9e9-b23a6a94899b
     - alpn:
         - h2
-      delay: 1110
-      name: 德国 - 法兰克福 - DataCamp Limited - 12
+      delay: 1471
+      name: 法国 - Pars-lès-Romilly - DataCamp Limited - 3
       network: tcp
       port: 8443
-      server: 195.181.175.176
-      servername: de1.fromblancwithlove.com
+      server: cdg-1.fromblancwithlove.com
       tls: true
       type: vless
       udp: true
@@ -97,18 +97,6 @@ proxies:
       type: vless
       udp: true
       uuid: 157448af-8ecf-4075-a9e9-b23a6a94899b
-    - alpn:
-        - h2
-      delay: 1179
-      name: 法国 - Pars-lès-Romilly - DataCamp Limited - 2
-      network: tcp
-      port: 8443
-      server: 138.199.27.206
-      servername: cdg-1.fromblancwithlove.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 157448af-8ecf-4075-a9e9-b23a6a94899b
     - cipher: aes-256-cfb
       delay: 773
       name: 瑞士 - 苏黎世 - DataCamp Limited - 1
@@ -118,35 +106,24 @@ proxies:
       type: ss
     - alpn:
         - h2
-      delay: 1399
-      name: 西班牙 - 马德里 - Datacamp Limited - 1
-      network: tcp
-      port: 8443
-      server: 212.102.48.216
-      servername: mad-es.fromblancwithlove.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 157448af-8ecf-4075-a9e9-b23a6a94899b
-    - alpn:
-        - h2
-      delay: 1742
-      name: 波兰 - 华沙 - Datacamp Limited - 1
-      network: tcp
-      port: 8443
-      server: pl1.fromblancwithlove.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 157448af-8ecf-4075-a9e9-b23a6a94899b
-    - alpn:
-        - h2
       delay: 1414
       name: 挪威 - 奥斯陆 - DataCamp Limited - 1
       network: tcp
       port: 8443
       server: 95.173.205.70
       servername: osl-no-01.fromblancwithlove.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 157448af-8ecf-4075-a9e9-b23a6a94899b
+    - alpn:
+        - h2
+      delay: 1399
+      name: 西班牙 - 马德里 - Datacamp Limited - 1
+      network: tcp
+      port: 8443
+      server: 212.102.48.216
+      servername: mad-es.fromblancwithlove.com
       tls: true
       type: vless
       udp: true
@@ -165,11 +142,34 @@ proxies:
       uuid: 157448af-8ecf-4075-a9e9-b23a6a94899b
     - alpn:
         - h2
+      delay: 1742
+      name: 波兰 - 华沙 - Datacamp Limited - 1
+      network: tcp
+      port: 8443
+      server: pl1.fromblancwithlove.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 157448af-8ecf-4075-a9e9-b23a6a94899b
+    - alpn:
+        - h2
       delay: 2122
       name: 阿根廷 - 布宜诺斯艾利斯省 - Latitude.sh - 1
       network: tcp
       port: 8443
       server: eze-1.fromblancwithlove.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 157448af-8ecf-4075-a9e9-b23a6a94899b
+    - alpn:
+        - h2
+      delay: 1110
+      name: 德国 - 法兰克福 - DataCamp Limited - 12
+      network: tcp
+      port: 8443
+      server: 195.181.175.176
+      servername: de1.fromblancwithlove.com
       tls: true
       type: vless
       udp: true
@@ -180,12 +180,4 @@ proxies:
       password: f8f7aCzcPKbsF8p3
       port: 989
       server: 156.146.40.194
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1F0\U0001F1F7 KR"
-      delay: 1079
-      name: 韩国 - Gwanak-gu - SK Broadband Co Ltd - 2
-      password: qwerREWQ@@
-      port: 22081
-      server: 211.201.169.70
       type: ss
